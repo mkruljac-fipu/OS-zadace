@@ -42,7 +42,6 @@
 
 
 6. ZADATAK:
-
 1. naredba: mkdir ~/Documents/vjezba6 && cd ~/Documents/vjezba6
 2. naredba: touch OS_script.md notes.txt && mkdir scripts
 3. naredba: mv OS_script.md scripts/
