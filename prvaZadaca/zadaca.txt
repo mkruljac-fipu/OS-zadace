@@ -1,0 +1,50 @@
+1. ZADATAK
+1. naredba: pwd
+2. naredba: ls
+3. naredba: mkdir vjezba1 && cd vjezba1
+4. naredba: touch README.md
+5. naredba: cd ..
+
+
+2. ZADATAK
+1. naredba: mkdir vjezba2 && touch vjezba2/file.txt
+2. naredba: cp vjezba2/file.txt  vjezba2/file_copy.txt
+3. naredba: ls vjezba2
+4. naredba: rm -f vjezba2/file.txt && cd .
+5. naredba: rmdir vjezba2  - nije moguće obrisati jer folder nije prazan
+
+
+3. ZADATAK:
+1. naredba: mkdir vjezba3 && mkdir vjezba3/backup
+2. naredba: cd vjezba3 && touch notes.txt todo.txt script.sh
+3. naredba: cp * backup/
+4. naredba: rm script.sh && ls
+5. naredba: mkdir backup/$USER
+6. naredba: cp backup/* backup/$USER/
+
+
+# najprije sam se vratio u početni folder
+4. ZADATAK:
+1. naredba: mkdir vjezba4 && cd vjezba4 && mkdir subfolder
+2. naredba: touch $HOSTNAME
+3. naredba: mv $HOSTNAME $USER
+4. naredba: mv $USER subfolder/$USER
+5. naredba: rm $(pwd)/subfolder/$USER
+
+
+5. ZADATAK
+1. naredba: mkdir vjezba5 && cd vjezba5 && touch $RANDOM.num
+2. naredba: postojanje datoteke možemo provjeriti s ls naredbom
+3  naredba:  cp *.num backup.num
+# već smo u roditeljskom direktoriju
+4. naredba: mkdir backup
+5. naredba: mv backup.num backup/backup.num
+
+
+6. ZADATAK:
+
+1. naredba: mkdir ~/Documents/vjezba6 && cd ~/Documents/vjezba6
+2. naredba: touch OS_script.md notes.txt && mkdir scripts
+3. naredba: mv OS_script.md scripts/
+4. naredba: mv notes.txt todo.txt
+5. naredba: cd scripts && rm ../todo.txt
