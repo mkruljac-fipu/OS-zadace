@@ -1,0 +1,41 @@
+Najprije sam pogledao git CLI.
+
+Prvi korak je bio kloniranje repozitorija koristeći git clone 
+
+git clone https://github.com/mkruljac-fipu/OS-zadace.git
+
+
+ZADATAK 2: 
+mkdir -p vjezba_2/backup
+cd vjezba_2/data
+echo 'console.log("Hello, World!")' > script.js
+echo 'body { background-color: #f0f0f0; }' > style.css
+echo 'VJEZBE=OS' > .env
+
+Koristeći naredbu "cat" možemo provjeriti sadržaj doatoteka u CLI. 
+
+
+ZADATAK 3:
+
+Najprije sam s ovom naredbom "cd .." otišao u močetni direktorij 
+cp -r data/. backup/
+cd data 
+ls -laS ../backup
+
+ZADATAK 4: 
+Najprije sam otišao u dirketorij "data" 
+rm -i script.js style.css
+cp -rn backup/* data/
+ls -ltA data
+Kojom još naredbom možete ispisati sadržaj direktorija data ? 
+To možemo s naredbom "find":
+Primjer rezultata:  data
+                    data/.env
+                    data/script.js
+                    data/style.css
+
+5. ZADATAK: 
+Ovo sam rješavao u trenutnom repozitoriju kako bi sve bilo na jednom mjestu te sam za te potrebe kreirao (js, php, txt,py) file-ove i "vjezba_2_1" folder 
+ls -laS
+ls -lSh
+tree -a

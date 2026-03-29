@@ -1,0 +1,131 @@
+1  git clone https://github.com/mkruljac-fipu/OS-zadace.git
+2  git status
+3  cd OS-zadace/
+4  git status
+5  ls
+6  mkdir -p drugaZadaca
+7  cd drugaZadaca/
+8  ls
+9  mkdir -p vjezba_2/data
+10 ls
+11 mkdir -p vjezba_2/backup
+12 cd vjezba_2/data
+13 echo 'console.log("Hello, World!")' > script.js
+14 echo 'body { background-color: #f0f0f0; }' > style.css
+15 echo 'VJEZBE=OS' > .env
+16 ls
+17 cat script.js
+18 ls
+19 ls -a
+20 cd ..
+21 cd .
+22 cd ..
+23 git status
+24 git add drugaZadaca/
+25 git status
+26 git commit -m "Riješen drugi zadatak"
+27 git push
+28 ls
+29 cd drugaZadaca/
+30 ls
+31 cd vjezba_2/
+32 ls
+33 cp -r data/. backup/
+34 ls -la backup
+35 ls -lah backup
+36 ls -laR backup
+37 ls -laS backup
+38 git status
+39 cd ..
+40 git status
+41 git ad .
+42 git add .
+43 git commit -m "Riješen treći zadatak"
+44 git push
+45 rm -i script.js style.css
+46 cd ..
+47 ls
+48 cd drugaZadaca/
+49 ls
+50 cd data
+51 ls
+52 cd vjezba_2/data
+53 rm -i script.js script.js
+54 rm -i script.js script.css
+55 ls
+56 rm -i style.css
+57 ls -laS
+58 cd ..
+59 cp -rn backup/. .
+60 ls
+61 cd backup
+62 ls
+63 cd ..
+64 ls data
+65 cp -rn backup/ data/
+66 ls data
+67 rm -rf backup
+68 cp -rn backup/. data/
+69 cp -rn /backup/. data/.
+70 ls
+71 cd data
+72 ls
+73 cp backup ../
+74 cp -rn backup ../
+75 ls
+76 rm -rf backup
+77 ls
+78 cd ..
+79 ls
+80 ls backup
+81 ls
+82 cp -rn ./backup/. data/
+83 ls data
+84 cd data
+85 ls
+86 cd ..
+87 cd ..
+88 ls
+89 cd backup/
+90 ls
+91 cd ..
+92 cp -rn ../backup/. .
+93 cp -rn /backup/. .
+94 ls
+95 cp -r backup/* data/
+96 ls
+97 ls data
+98 ls -ltA data
+99 find data
+100 cd ../..
+101 ls
+102 git status
+103 git add .
+104 git status
+105 git commit -m "Riješen četvrti zadatak"
+106 git push -f
+107 cd ..
+108 cd OS-zadace
+109 ls
+110 cd drugaZadaca/
+111 ls
+112 mkdir -p vjezba_2_1/test
+113 touch text.py text.txt text.js text.php
+114 ls
+115 cd vjezba_2
+116 ls -laS
+117 cd ..
+118 ls -laS
+119 cd vjezba_2_1/
+120 ls -laS ..
+121 tree -a
+122 tree
+123 tree ..
+124 git status
+125 git add .
+126 git commit -m "Riješen peti zadatak"
+127 git add ..
+128 git commit -m "Riješen peti zadatak"
+129 git push
+130 cd ..
+131 history > vjezba_2_history.txt
